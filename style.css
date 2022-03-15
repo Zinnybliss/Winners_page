@@ -1,0 +1,111 @@
+body{
+    background: #E5E5E5;
+    margin:0%;
+    padding: 0%;
+
+   
+}
+img{
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.item1{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+    /* flex-direction: row; */
+    /* flex: content; */
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* position: fixed; */
+    /* align-items: center; */
+    /* padding: 10px; */
+    /* vertical-align: middle; */
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul>li{
+    padding-right: 50px;
+    align-items: center;
+    list-style: none;
+    margin-top: 10px;
+}
+.part1{
+    height:80%;
+    width: 100%;
+    top: 9%;
+    position: absolute;
+    background: url("./unsplash_3eSZaVlxsLw.png");
+    mix-blend-mode: darken;
+    opacity: 2.5;
+}
+.part1>h1{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+    margin-left: 200px;
+    margin-top: 200px;
+     /* opacity: transparent; */
+}
+.part1>p{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 200px;
+     /* opacity: transparent; */
+}
+.part2{
+    display: flex;
+    background: whitesmoke;
+    height: 400px;
+    width: 100%;
+    color: black;
+    position: relative;
+    top:550px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.part2>h4{
+    color: black;
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: sans-serif;
+
+
+}
+.part2>p{
+    color: black;
+    /* margin-top: 600px; */
+
+}
+/* .part3{
+    height :50px;
+    width: 100%;
+    display: flex;
+    background: blue;
+    height: 100px;
+    width: 100%;
+    color: white;
+    /* position: relative; */
+    /* margin-top:500px;
+    justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+
+
+
